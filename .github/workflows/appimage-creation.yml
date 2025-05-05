@@ -47,7 +47,7 @@ jobs:
         openSpaceHome="$HOME/source/OpenSpace"
         git clone --recursive https://github.com/OpenSpace/OpenSpace "$openSpaceHome"
         cd "$openSpaceHome"
-        git checkout "releases/v${OPENSPACE_VERSION}" --recurse-submodules
+        git checkout 86dd03787089313a62f1a94bf8c56b0d939de206 --recurse-submodules
         mkdir build
         cd build
         
